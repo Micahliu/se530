@@ -28,6 +28,7 @@ public class First  {
         System.out.println("Page title is: " + driver.getTitle());
 
         driver.quit();
+        System.out.println("sucess commit");
     }
     
 }
