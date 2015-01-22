@@ -16,7 +16,7 @@ public class First  {
         driver.get("http://www.google.com");
 
         // Find the text input element by its name
-        WebElement element = driver.findElement(By.name("q"));
+        WebElement element = driver.findElement(By.className("q"));
 
         // Enter something to search for
         element.sendKeys("Cheese!");
@@ -29,6 +29,8 @@ public class First  {
 
         driver.quit();
         System.out.println("sucess commit");
+        
+        
     }
     
 }
