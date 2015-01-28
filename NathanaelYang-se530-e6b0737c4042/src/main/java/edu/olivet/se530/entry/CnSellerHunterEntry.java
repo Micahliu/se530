@@ -17,6 +17,7 @@ public class CnSellerHunterEntry {
 		Offer offer = new Offer();
 		offer = hunter.getOfferList("B00KRZJYXW", "New");
 		System.out.println(offer);
+		System.out.println("my commit");
 	}	
 }
 
